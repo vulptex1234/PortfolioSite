@@ -42,6 +42,196 @@ function App() {
           </div>
         </div>
       </section>
+
+      <section className='text-gray-700 border-t border-gray-200' id='About'>
+        <div className='container px-5 py-24 mx-auto'>
+          <div className='text-center mb-20'>
+            <h1 className='text-2xl sm:text-3xl font-medium mb-2 text-gray-900'>About Me</h1>
+            <p className='pb-10'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur nemo alias illum id. Non neque quasi tenetur similique, veritatis quisquam.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate error necessitatibus ipsam aliquam perspiciatis aut corporis obcaecati exercitationem facere quae, facilis architecto excepturi placeat doloribus voluptates ipsa. Velit ipsam accusantium temporibus qui aliquam provident hic fugit laborum odio odit cum dolor rem vero ullam eius amet ducimus debitis, nulla dolores ad dicta sint. Explicabo debitis fuga ullam corporis perspiciatis aliquid deleniti repudiandae cupiditate earum itaque suscipit quibusdam, sunt dolorum consectetur dolor nemo eos. Deserunt eum nam non unde, aut ipsa neque rerum quibusdam maiores quae deleniti, numquam eligendi a autem optio illo voluptatum consequuntur adipisci fugiat minus esse. Autem, numquam!</p>
+          </div>
+          {/*カードのdivタグ*/} 
+          <div className='flex flex-wrap'>
+            <div className='md:w-1/3 p-4'>
+              <div className='bg-gray-200 rounded-lg p-8'>
+                <div className='flex items-center mb-3'>
+                  <div className='bg-green-500 text-white rounded-full'>
+                  <svg
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M10.9759 9C10.9759 9.55228 10.5282 10 9.97589 10C9.42361 10 8.97589 9.55228 8.97589 9C8.97589 8.44771 9.42361 8 9.97589 8C10.5282 8 10.9759 8.44771 10.9759 9Z"
+                      fill="currentColor"
+                    />
+                    <path
+                      d="M13.9712 10C14.5235 10 14.9712 9.55228 14.9712 9C14.9712 8.44771 14.5235 8 13.9712 8C13.4189 8 12.9712 8.44771 12.9712 9C12.9712 9.55228 13.4189 10 13.9712 10Z"
+                      fill="currentColor"
+                    />
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M19 20.9999V10C19 6.13401 15.866 3 12 3C8.13401 3 5 6.13401 5 10V21L7.82846 21L9.24264 19.5858L10.6569 21L13.3433 21L14.7574 19.5858L16.1717 21L19 20.9999ZM17 10C17 7.23858 14.7614 5 12 5C9.23858 5 7 7.23858 7 10V19L9.24264 16.7573L12 19.5147L14.7574 16.7573L17 18.9999V10Z"
+                      fill="currentColor"
+                    />
+                  </svg>
+                  </div>
+                  <h2 className='text-gray-900 text-lg font-medium ml-2'>Web Developer</h2>
+                </div>
+                <div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In fugiat maiores odio quis nam error repudiandae, blanditiis tenetur? Excepturi, reprehenderit.</p>
+                <a href="#" className='flex mt-3 text-green-500 items-center'>see more
+                  <svg
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M15.0378 6.34317L13.6269 7.76069L16.8972 11.0157L3.29211 11.0293L3.29413 13.0293L16.8619 13.0157L13.6467 16.2459L15.0643 17.6568L20.7079 11.9868L15.0378 6.34317Z"
+                      fill="currentColor"
+                    />
+                  </svg> 
+                </a>
+                </div>
+              </div>
+            </div>
+            <div className='md:w-1/3 p-4'>
+              <div className='bg-gray-200 rounded-lg p-8'>
+                <div className='flex items-center mb-3'>
+                  <div className='bg-green-500 text-white rounded-full'>
+                  <svg
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M10.9759 9C10.9759 9.55228 10.5282 10 9.97589 10C9.42361 10 8.97589 9.55228 8.97589 9C8.97589 8.44771 9.42361 8 9.97589 8C10.5282 8 10.9759 8.44771 10.9759 9Z"
+                      fill="currentColor"
+                    />
+                    <path
+                      d="M13.9712 10C14.5235 10 14.9712 9.55228 14.9712 9C14.9712 8.44771 14.5235 8 13.9712 8C13.4189 8 12.9712 8.44771 12.9712 9C12.9712 9.55228 13.4189 10 13.9712 10Z"
+                      fill="currentColor"
+                    />
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M19 20.9999V10C19 6.13401 15.866 3 12 3C8.13401 3 5 6.13401 5 10V21L7.82846 21L9.24264 19.5858L10.6569 21L13.3433 21L14.7574 19.5858L16.1717 21L19 20.9999ZM17 10C17 7.23858 14.7614 5 12 5C9.23858 5 7 7.23858 7 10V19L9.24264 16.7573L12 19.5147L14.7574 16.7573L17 18.9999V10Z"
+                      fill="currentColor"
+                    />
+                  </svg>
+                  </div>
+                  <h2 className='text-gray-900 text-lg font-medium ml-2'>Web Developer</h2>
+                </div>
+                <div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In fugiat maiores odio quis nam error repudiandae, blanditiis tenetur? Excepturi, reprehenderit.</p>
+                <a href="#" className='flex mt-3 text-green-500 items-center'>see more
+                  <svg
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M15.0378 6.34317L13.6269 7.76069L16.8972 11.0157L3.29211 11.0293L3.29413 13.0293L16.8619 13.0157L13.6467 16.2459L15.0643 17.6568L20.7079 11.9868L15.0378 6.34317Z"
+                      fill="currentColor"
+                    />
+                  </svg> 
+                </a>
+                </div>
+              </div>
+            </div>
+            <div className='md:w-1/3 p-4'>
+              <div className='bg-gray-200 rounded-lg p-8'>
+                <div className='flex items-center mb-3'>
+                  <div className='bg-green-500 text-white rounded-full'>
+                  <svg
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M10.9759 9C10.9759 9.55228 10.5282 10 9.97589 10C9.42361 10 8.97589 9.55228 8.97589 9C8.97589 8.44771 9.42361 8 9.97589 8C10.5282 8 10.9759 8.44771 10.9759 9Z"
+                      fill="currentColor"
+                    />
+                    <path
+                      d="M13.9712 10C14.5235 10 14.9712 9.55228 14.9712 9C14.9712 8.44771 14.5235 8 13.9712 8C13.4189 8 12.9712 8.44771 12.9712 9C12.9712 9.55228 13.4189 10 13.9712 10Z"
+                      fill="currentColor"
+                    />
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M19 20.9999V10C19 6.13401 15.866 3 12 3C8.13401 3 5 6.13401 5 10V21L7.82846 21L9.24264 19.5858L10.6569 21L13.3433 21L14.7574 19.5858L16.1717 21L19 20.9999ZM17 10C17 7.23858 14.7614 5 12 5C9.23858 5 7 7.23858 7 10V19L9.24264 16.7573L12 19.5147L14.7574 16.7573L17 18.9999V10Z"
+                      fill="currentColor"
+                    />
+                  </svg>
+                  </div>
+                  <h2 className='text-gray-900 text-lg font-medium ml-2'>Web Developer</h2>
+                </div>
+                <div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In fugiat maiores odio quis nam error repudiandae, blanditiis tenetur? Excepturi, reprehenderit.</p>
+                <a href="#" className='flex mt-3 text-green-500 items-center'>see more
+                  <svg
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M15.0378 6.34317L13.6269 7.76069L16.8972 11.0157L3.29211 11.0293L3.29413 13.0293L16.8619 13.0157L13.6467 16.2459L15.0643 17.6568L20.7079 11.9868L15.0378 6.34317Z"
+                      fill="currentColor"
+                    />
+                  </svg> 
+                </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          
+        </div>
+      </section>
+
+      <section className='text-gray-700 border-t border-gray-200' id='Skills'>
+        <div className='flex flex-wrap container px-5 py-24 mx-auto'>
+          {/*left side*/}
+          <div className='mb-10 lg:mb-0 w-full lg:w-1/2 flex justify-center'>
+            <img src="./img/pc.jpg" alt="" className='rounded'/>
+          </div>
+          {/*right side*/}
+          <div className='lg:pl-12 lg:py-6 w-full lg:w-1/2'>
+            <h1 className='text-2xl sm:text-3xl font-medium text-gray-900 mb-10 text-center lg:text-left'>My Skills</h1>
+            <div className='w-full'>
+              <h2>HTML</h2>
+              <div className='bg-green-100 mt-2 w-full'>
+                <div className='bg-green-600 text-xs leading-none py-1 text-center text-white' style={{width:'50%'}}>85%</div>
+              </div>
+              <h2>CSS</h2>
+              <div className='bg-green-100 mt-2 w-full'>
+                <div className='bg-green-600 text-xs leading-none py-1 text-center text-white' style={{width:'50%'}}>85%</div>
+              </div>
+              <h2>Python</h2>
+              <div className='bg-green-100 mt-2 w-full'>
+                <div className='bg-green-600 text-xs leading-none py-1 text-center text-white' style={{width:'85%'}}>85%</div>
+              </div>
+              <h2>Java</h2>
+              <div className='bg-green-100 mt-2 w-full'>
+                <div className='bg-green-600 text-xs leading-none py-1 text-center text-white' style={{width:'70%'}}>85%</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </>
   );
 }
