@@ -28,16 +28,16 @@ function App() {
             <h1 className='text-3xl sm:text-6xl text-gray-900 font-mediam mb-4'>
               Hi!
               <br />
-              I'm Kay
+              I'm Kyohei
               <br />
-              Graduated Student 
+              Computer Science Student 
             </h1>
             <p className='mb-8 leading-relaxed'>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis molestiae exercitationem officia, itaque reprehenderit facere. Atque quae consectetur ex! Fuga harum nisi similique placeat at, incidunt rem fugit hic porro?
+              My name is Kyohei Osawa. I'm a computer science student at Tokyo University of Technology. I'm passionate about cutting edge technologies regardless of field. 
             </p>
             <button className='text-white bg-green-500 py-2 px-6 border-0 rounded text-lg hover:bg-green-600 duration-300'>Contact Me</button>
           </div>
-          <div className='md:w-2/5 lg:max-w-lg w-5/6'>
+          <div className='md:w-1/4 lg:max-w-lg w-5/6'>
             <img src="./img/icon.jpeg" alt="" />
           </div>
         </div>
@@ -47,8 +47,10 @@ function App() {
         <div className='container px-5 py-24 mx-auto'>
           <div className='text-center mb-20'>
             <h1 className='text-2xl sm:text-3xl font-medium mb-2 text-gray-900'>About Me</h1>
-            <p className='pb-10'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur nemo alias illum id. Non neque quasi tenetur similique, veritatis quisquam.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate error necessitatibus ipsam aliquam perspiciatis aut corporis obcaecati exercitationem facere quae, facilis architecto excepturi placeat doloribus voluptates ipsa. Velit ipsam accusantium temporibus qui aliquam provident hic fugit laborum odio odit cum dolor rem vero ullam eius amet ducimus debitis, nulla dolores ad dicta sint. Explicabo debitis fuga ullam corporis perspiciatis aliquid deleniti repudiandae cupiditate earum itaque suscipit quibusdam, sunt dolorum consectetur dolor nemo eos. Deserunt eum nam non unde, aut ipsa neque rerum quibusdam maiores quae deleniti, numquam eligendi a autem optio illo voluptatum consequuntur adipisci fugiat minus esse. Autem, numquam!</p>
+            <p className='pb-10'>Hello there. My name is Kyohei Osawa. I know it's a little bit difficult to pronounce Kyohei, so call me Kay.</p>
+            <p>I was born and raised in Hachioji, a suburb of Tokyo that is full of nature and easily accessible to the center of Tokyo. When I was a child, I was good at arts and crafts, English, mathematics and science. But not only them, I was curious about so many things around me. I think these things define my interests and who I am now.
+              I have been learning compputer science for 4 years at university, and now I am a student in the final year of my degree. My main major is IoT. But "Computer Science" has a lot of fields. I'm interested in many fields in "Computer Science".
+            </p>
           </div>
           {/*カードのdivタグ*/} 
           <div className='flex flex-wrap'>
@@ -79,10 +81,11 @@ function App() {
                     />
                   </svg>
                   </div>
-                  <h2 className='text-gray-900 text-lg font-medium ml-2'>Web Developer</h2>
+                  <h2 className='text-gray-900 text-lg font-medium ml-2'>IoT</h2>
                 </div>
                 <div>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In fugiat maiores odio quis nam error repudiandae, blanditiis tenetur? Excepturi, reprehenderit.</p>
+                <p>I'm currently doing research about reducing energy consumption in IoT systems for my graduate thethis. 
+                I use microPython for ESP32 development, and use Python, flask and MongoDB for server side development.</p>
                 <a href="#" className='flex mt-3 text-green-500 items-center'>see more
                   <svg
                     width="24"
@@ -127,10 +130,10 @@ function App() {
                     />
                   </svg>
                   </div>
-                  <h2 className='text-gray-900 text-lg font-medium ml-2'>Web Developer</h2>
+                  <h2 className='text-gray-900 text-lg font-medium ml-2'>SRE</h2>
                 </div>
                 <div>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In fugiat maiores odio quis nam error repudiandae, blanditiis tenetur? Excepturi, reprehenderit.</p>
+                <p>I learned SRE in a class. I built a webserver using nginx, then did a scaling test by using kubernetes. I used ELK Stack for monitoring.</p>
                 <a href="#" className='flex mt-3 text-green-500 items-center'>see more
                   <svg
                     width="24"
