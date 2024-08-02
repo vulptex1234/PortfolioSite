@@ -11,13 +11,13 @@ function App() {
       <header className='text-gray-700 border-b border-gray-700'>
         <div className='container flex mx-auto p-5 flex-col md:flex-row items-center'>
           <a href="#" className='font-mediam text-gray-900 mb-4 md:mb-0'>
-            <span className='text-xl ml-3'>Kay</span>
+            <span className='text-xl ml-3'>O.Kay</span>
           </a>
           <nav className='md:ml-auto text-base'>
-            <a href="#home" className='mr-5 hover:text-blue-400 duration-300'>Home</a>
-            <a href="#About" className='mr-5 hover:text-blue-400 duration-300'>About</a>
-            <a href="#Skills" className='mr-5 hover:text-blue-400 duration-300'>Skills</a>
-            <a href="#Blog" className='mr-5 hover:text-blue-400 duration-300'>Blog</a>
+            <a href="#home" className='mr-5 py-2 px-2 hover:text-white hover:bg-green-500 rounded-xl duration-300'>Home</a>
+            <a href="#About" className='mr-5 py-2 px-2 hover:text-white hover:bg-green-500 rounded-xl duration-300'>About</a>
+            <a href="#Skills" className='mr-5 py-2 px-2 hover:text-white hover:bg-green-500 rounded-xl duration-300'>Skills</a>
+            <a href="#Blog" className='mr-5 py-2 px-2 hover:text-white hover:bg-green-500 rounded-xl duration-300'>Blog</a>
           </nav>
         </div>
       </header>
@@ -26,19 +26,19 @@ function App() {
         <div className='flex container mx-auto my-20 px-5 flex-col md:flex-row items-center'>
           <div className='md:w-1/2 flex-grow mb-16 lg:pr-24 md:pr-16 text-center md:text-left'>
             <h1 className='text-3xl sm:text-6xl text-gray-900 font-mediam mb-4'>
-              Hi!
-              <br />
-              I'm Kyohei
+              Hello, I'm Kyohei!
               <br />
               Computer Science Student 
             </h1>
             <p className='mb-8 leading-relaxed'>
-              My name is Kyohei Osawa. I'm a computer science student at Tokyo University of Technology. I'm passionate about cutting edge technologies regardless of field. 
+              My name is Kyohei Osawa.
+              <br /> 
+              I'm a graduate student in computer science working on master's degree at Tokyo University of Technology. 
             </p>
             <button className='text-white bg-green-500 py-2 px-6 border-0 rounded text-lg hover:bg-green-600 duration-300'>Contact Me</button>
           </div>
           <div className='md:w-1/4 lg:max-w-lg w-5/6'>
-            <img src="./img/icon.jpeg" alt="" />
+            <img src="./img/icon.jpeg" alt="" className='rounded'/>
           </div>
         </div>
       </section>
@@ -55,7 +55,7 @@ function App() {
           {/*カードのdivタグ*/} 
           <div className='flex flex-wrap'>
             <div className='md:w-1/3 p-4'>
-              <div className='bg-gray-200 rounded-lg p-8'>
+              <div className='bg-gray-200 rounded-lg p-8 shadow-md hover:shadow-xl transition duration-200 ease-in-out'>
                 <div className='flex items-center mb-3'>
                   <div className='bg-green-500 text-white rounded-full'>
                   <svg
@@ -104,7 +104,7 @@ function App() {
               </div>
             </div>
             <div className='md:w-1/3 p-4'>
-              <div className='bg-gray-200 rounded-lg p-8'>
+              <div className='bg-gray-200 rounded-lg p-8 shadow-md transition hover:shadow-xl duration-200 ease-in-out'>
                 <div className='flex items-center mb-3'>
                   <div className='bg-green-500 text-white rounded-full'>
                   <svg
@@ -208,28 +208,38 @@ function App() {
       <section className='text-gray-700 border-t border-gray-200' id='Skills'>
         <div className='flex flex-wrap container px-5 py-24 mx-auto'>
           {/*left side*/}
-          <div className='mb-10 lg:mb-0 w-full lg:w-1/2 flex justify-center'>
-            <img src="./img/pc.jpg" alt="" className='rounded'/>
+          <div className='lg:pl-12 lg:py-6 w-full lg:w-1/2'>
+            <h1 className="text-2xl sm:text-3xl font-semibold text-gray-900 mb-10 text-center lg:text-left">PR</h1>
+            <div className="w-full flex flex-col justify-center lg:justify-start space-y-1">
+              <div className='px-2 py-1'>
+                <li>TOEIC</li>
+                <p>Listening & Reading Test Score 830</p>
+                <p>(CEFR B2)</p>
+              </div>
+              <div className='px-2 py-1'>
+                <li>IEEE CCEM 2023</li>
+                <p>The Best Student Project Showcase Award</p>
+                <a href="https://www.teu.ac.jp/information/2023.html?id=252" className='text-green-500'><button className='text-white bg-green-500 py-1 px-6 border-0 rounded text-lg hover:bg-green-600 duration-300'>More Info</button></a>
+              </div>
+            </div>
           </div>
           {/*right side*/}
           <div className='lg:pl-12 lg:py-6 w-full lg:w-1/2'>
-            <h1 className='text-2xl sm:text-3xl font-medium text-gray-900 mb-10 text-center lg:text-left'>My Skills</h1>
-            <div className='w-full'>
-              <h2>HTML</h2>
-              <div className='bg-green-100 mt-2 w-full'>
-                <div className='bg-green-600 text-xs leading-none py-1 text-center text-white' style={{width:'50%'}}>85%</div>
+            <h1 className="text-2xl sm:text-3xl font-semibold text-gray-900 mb-10 text-center lg:text-left">My Skills</h1>
+            <div className="w-full flex flex-col justify-center lg:justify-start space-y-1">
+              <div className="px-2 py-1">
+                <li>Python</li>
+                <li>MicroPython</li>
+                <li>Java</li>
               </div>
-              <h2>CSS</h2>
-              <div className='bg-green-100 mt-2 w-full'>
-                <div className='bg-green-600 text-xs leading-none py-1 text-center text-white' style={{width:'50%'}}>85%</div>
+              <div className='px-2 py-1'>
+                <li>React</li>
+                <li>Tailwind CSS</li>
               </div>
-              <h2>Python</h2>
-              <div className='bg-green-100 mt-2 w-full'>
-                <div className='bg-green-600 text-xs leading-none py-1 text-center text-white' style={{width:'85%'}}>85%</div>
-              </div>
-              <h2>Java</h2>
-              <div className='bg-green-100 mt-2 w-full'>
-                <div className='bg-green-600 text-xs leading-none py-1 text-center text-white' style={{width:'70%'}}>85%</div>
+              <div className='px-2 py-1'>
+                <li>Docker</li>
+                <li>Kubernetes</li>
+                <li>The Elastic Stack</li>
               </div>
             </div>
           </div>

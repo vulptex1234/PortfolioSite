@@ -1,0 +1,16 @@
+
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .star { fill: white; }
+    .letter { fill: black; font-family: Arial, sans-serif; font-size: 800px; }
+  </style>
+  <rect width="100%" height="100%" fill="none" />
+  <text x="200" y="800" class="letter">K</text>
+  <!-- Adding some stars -->
+  <circle cx="200" cy="200" r="5" class="star" />
+  <circle cx="300" cy="100" r="7" class="star" />
+  <circle cx="800" cy="300" r="6" class="star" />
+  <circle cx="900" cy="700" r="4" class="star" />
+  <circle cx="400" cy="600" r="8" class="star" />
+  <!-- Add more stars as needed to enhance the space theme -->
+</svg>
